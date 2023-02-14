@@ -1,0 +1,81 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #8EC1D6;
+}
+
+.logIn-form{
+  margin:100px auto;
+  width: 200px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;  
+
+  
+}
+.logIn-form h1{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.logIn-form p{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #B8BFC6;
+  padding: 10px 10px;
+
+
+}
+
+.logIn-form input{
+  display: block;
+  width: 80%;
+  height: 40px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: black;
+}
+.logIn-form button{
+  background-color: #8EC1D6;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius:7px;
+  padding: 5px 10px;
+  border: none;
+
+
+}
+.logIn-form button:hover{
+  background-color: #6EA4B9;
+}
+
